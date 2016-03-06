@@ -16,4 +16,4 @@ cd XWTool目录
 ./setup_snippets.sh
 ```
 
-> [模仿唐巧大神](https://github.com/tangqiaoboy/xcode_tool)
+> [模仿自唐巧大神](https://github.com/tangqiaoboy/xcode_tool)
