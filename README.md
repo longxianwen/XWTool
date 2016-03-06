@@ -8,7 +8,7 @@ git clone https://github.com/longxianwen/XWTool
 ```
 2. 进入工具目录
 ```
-cd XWTool目录
+cd XWTool
 ```
 
 3. 执行脚步文件,让Xcode的CodeSnippets指向XWTool中的CodeSnippets
