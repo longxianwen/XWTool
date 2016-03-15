@@ -3,25 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>section</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt;#描述#&gt;*/
-@property (nonatomic,assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>/**组*/
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F4960EED-1663-4C1A-970F-0FCCD7BB1A29</string>
+	<string>B6325F3C-FB12-44EE-BA13-2DB4428B2BB7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>基本类型</string>
+	<string>表格中有多少组</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>assign</string>
+	<string>section</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
