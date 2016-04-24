@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt;#描述#&gt;*/
-@property (nonatomic,strong) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (nonatomic,weak) &lt;#type#&gt; * &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F254022F-4E82-4778-8044-30AE07F72BEE</string>
+	<string>6097A2E5-84E5-4ED0-9093-DEC79728715C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>对象类型</string>
+	<string>weak类型，ui控件等</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong</string>
+	<string>weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
