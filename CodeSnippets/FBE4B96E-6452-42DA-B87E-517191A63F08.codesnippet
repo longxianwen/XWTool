@@ -3,25 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Copy</string>
+	<string>ccection</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt;#描述#&gt;*/
-@property (nonatomic,copy) NSString *&lt;#name#&gt;;</string>
+	<string>/**有多少个section,默认为1*/
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+    return 1;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8103B548-4709-4053-80A1-47726988CCE9</string>
+	<string>FBE4B96E-6452-42DA-B87E-517191A63F08</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>用于字符串,block</string>
+	<string>UICollctionView Section</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Copy</string>
+	<string>csection</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
